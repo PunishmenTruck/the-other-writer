@@ -1,6 +1,6 @@
 # Test Results — AI Story Co-Writer local prototype
 
-Run: 11/4/2026, 10:23:07 PM (CT) · Node v20.19.2 · jsdom for UI/state tests · command: `node tests/run.js`
+Run: 11/5/2026, 7:03:39 AM (CT) · Node v20.19.2 · jsdom for UI/state tests · command: `node tests/run.js`
 
 **Overall: 90 passed, 0 failed (90 tests, 22 categories)**
 
@@ -33,12 +33,12 @@ Run: 11/4/2026, 10:23:07 PM (CT) · Node v20.19.2 · jsdom for UI/state tests ·
 
 | Operation | ms | Over 500ms? |
 |---|---|---|
-| spellcheck 1,040-word clean sample | 0.325 | no |
-| spellcheck 330 words w/ 120 typos + suggestions | 4.650 | no |
-| paper-aware color lookup ×11 papers | 0.172 | no |
-| auto-save serialize+persist (~3 MB state) | 5.082 | no |
-| navigation state change (go) | 0.005 | no |
-| UI render: settings screen (jsdom) | 8.103 | no |
+| spellcheck 1,040-word clean sample | 0.326 | no |
+| spellcheck 330 words w/ 120 typos + suggestions | 5.114 | no |
+| paper-aware color lookup ×11 papers | 0.183 | no |
+| auto-save serialize+persist (~3 MB state) | 5.469 | no |
+| navigation state change (go) | 0.006 | no |
+| UI render: settings screen (jsdom) | 10.153 | no |
 
 ## A) SPEED — PASS (6/6)
 
